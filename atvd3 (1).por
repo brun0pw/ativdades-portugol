@@ -5,7 +5,7 @@ programa
 	
 	funcao inicio()
 	{
-        //Organizando variáveis.
+        //Organizando variÃ¡veis.
 	   cadeia nome
 	   inteiro idade
 	   real peso
@@ -15,13 +15,12 @@ programa
 	   cadeia cpf
 
 		
-	     //solicitando dados ao usuário.	
+	     //solicitando dados ao usuÃ¡rio.	
 		escreva(" Digite seu nome: ")
 		leia(nome)
 		
 	     escreva(" Digite sua idade: ")
-		
-leia (idade)
+		leia (idade)
           
           escreva (" Digite seu peso:  ")
           leia (peso) 
@@ -29,7 +28,7 @@ leia (idade)
           escreva (" Digite sua altura:  ")
           leia (altura)
           
-          escreva(" Digite seu sexo apenas em M para masculino, F para feminino e N para prefiro não responder: ")
+          escreva(" Digite seu sexo apenas em M para masculino, F para feminino e N para prefiro nÃ£o responder: ")
           leia(sexo)
           
           escreva(" Digite seu RG: ")
@@ -39,26 +38,26 @@ leia (idade)
 		leia (cpf)
 
 
-          //Exibindo dados ao usuário.
+          //Exibindo dados ao usuÃ¡rio.
 		escreva(" nome:  " + nome)
 	
 		escreva("\n idade:  " + idade)
 		
-		escreva("\n seu peso �:  " + peso)
+		escreva("\n seu peso é:  " + peso)
 		
-		escreva("\n sua altura �:   " + altura)
+		escreva("\n sua altura é:   " + altura)
 		
 		escreva("\n seu sexo:  " + sexo)
 		
-		escreva("\n seu RG �:   " + rg)
+		escreva("\n seu RG é:   " + rg)
 		
-		escreva("\n seu CPF �:   " + cpf)
+		escreva("\n seu CPF é:   " + cpf)
 		
-		//fazendo a 1� condicional
+		//fazendo a 1° condicional
 		se(idade < 18)
-	escreva("\n voc� � menor de idade")
+	escreva("\n você é menor de idade")
 	senao
-	escreva("\n voc� � maior de idade")
+	escreva("\n você é maior de idade")
 	
 	
 
@@ -69,8 +68,8 @@ leia (idade)
 }
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
  * 
  * @POSICAO-CURSOR = 1173; 
  * @PONTOS-DE-PARADA = ;
