@@ -1,54 +1,40 @@
-programa
-{
-	
-	funcao inicio()
-	{
-	    //declarando variaveis
-		cadeia nome
-		inteiro idade
-		real unidade1, unidade2, unidade3
-          real media
-          inteiro div = 3
 
-         //declarando os valores ao pc 
-		escreva("qual √© o seu nome?")
-		leia(nome)
-		escreva("Qual a sua idade? ")
-		leia(idade)
-		escreva("\nqual foi sua nota da primeira unidade? ")
-		leia(unidade1)
-		escreva("\nqual foi sua nota da segunda unidade? ")
-		leia(unidade2)
-		escreva("\nqual foi sua nota da terceira unidade? ")
-		leia(unidade3)
-		
-	//fazendo a opera√ßao da m√©dia
-		
-		media =  (unidade1 + unidade2 + unidade3) / div
+programa  {
+  funcao inicio() {
+   
+    cadeia nome
+    inteiro notas1, notas2, soma
+    real media, produto
 
-         
-		//imprimir o resultado
-		escreva("nome:  " + nome + "\n" + "idade: " +  idade )
-		escreva( "\nsua m√©dia foi: " + media)
-	       se (media < 5)
-          escreva("\nvoc√™ foi reprovado")
-          senao
-          escreva("\nvoce foi aprovado")
-         
+    escreva("Qual È o seu nome? ")
+    leia(nome)
+    escreva("\nQual a sua 1∞ nota? ")
+    leia(notas1)
+    escreva("\nQual a sua 2∞ nota? ")
+    leia(notas2)
+    soma = notas1 + notas2
+    media = (notas1 + notas2) / 2.0
+    produto = notas1 * notas2
 
 
 
-		
-} }
 
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta se√ß√£o do arquivo guarda informa√ß√µes do Portugol Studio.
- * Voc√™ pode apag√°-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 559; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
+
+
+    escreva("nome do aluno: " + nome)
+    se(notas1 > notas2)
+    escreva("\nSua nota da 1∞ unidade È maior que a da segunda unidade ")
+    senao se(notas1 < notas2){
+    escreva("\nsua nota da 1∞ unidade foi menor que a da segunda unidade")
+    }
+    senao{
+    escreva("\nsua nota tanto da 1∞ unidade quanto da 2∞ s„o iguais")}
+    escreva("\nsua mÈdia foi: " + media)
+    escreva("\nA soma das suas notas foram: " + soma)
+    escreva("\n O produto das suas notas foram: " + produto)
+
+
+
+
+  }
+}
