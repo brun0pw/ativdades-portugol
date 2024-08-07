@@ -1,0 +1,31 @@
+
+    
+programa {
+  funcao inicio() {
+    
+  
+    inteiro idade
+    
+    
+
+   
+    escreva("digite sua idade: ")
+    leia(idade)
+   
+   
+ 
+    se(idade <= 18 ou idade >= 65 )
+    escreva("você não é obrigado a votar")
+    
+    
+    
+    senao 
+    escreva("você é obrigado a votar" )
+    
+   
+     
+
+    }
+ 
+}
+}
